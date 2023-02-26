@@ -4,10 +4,6 @@ $box-shadow: 0 8px 16px rgba(38, 35, 35, 0.1), 0 4px 4px rgba(22, 20, 20, 0.1);
 $primary-color: #024a60;
 $secondary-color: #dcc8c8;
 
-* {
-    box-sizing: border-box;
-}
-
 body {
     align-items: center;
     background-color: $primary-color;
@@ -19,5 +15,14 @@ body {
     margin: 0;
     padding: 10px;
     overflow: hidden;
-    color: $secondary-color;
+}
+
+.container {
+    background-color: $secondary-color;
+    border-radius: 10px;
+    box-shadow: $box-shadow;
+    max-width: 100%;
+    padding: 64px 16px;
+    text-align: center;
+    width: 400px;
 }
